@@ -1,0 +1,26 @@
+<annotation>                           
+	<folder></folder>          
+	<filename>20460_1.jpg</filename>    
+	<path>C:\Users\Anton\Projects\alpr_site_plates_segmentation/saved_cars/20460_1.jpg</path>        
+	<source>                           
+		<database>Unknown</database>   
+	</source>                          
+	<size>                             
+		<width>513</width>             
+		<height>513</height>           
+		<depth>1</depth>               
+	</size>
+	<segmented>0</segmented>           
+	<object>                           
+		<name>plate</name>             
+		<pose>Unspecified</pose>       
+		<truncated>0</truncated>       
+		<difficult>0</difficult>       
+		<bndbox>                       
+			<xmin>293</xmin>           
+ 			<ymin>380</ymin>           
+			<xmax>401</xmax>           
+			<ymax>424</ymax>           
+		</bndbox>                 
+	</object>                          
+</annotation> 
