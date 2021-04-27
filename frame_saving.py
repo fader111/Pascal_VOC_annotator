@@ -2,10 +2,10 @@
 '''
 import cv2
 import os
-folder_name = "C:/Users/Anton/Downloads/ach_picts/"
-video_src = "../../Videos/tula11.mp4"
-img_list = os.listdir(folder_name)
-img = None
+# video_src = "../../Videos/tula11.mp4"
+video_src = "../../Videos/tula12n.mp4"
+start_frm_num = 0
+# img = None
 
 def make_screenshot(img, fname, path_='pictures/', res_w = 1024, res_h = 768):
     """ resize img and save """
@@ -13,17 +13,9 @@ def make_screenshot(img, fname, path_='pictures/', res_w = 1024, res_h = 768):
     img = cv2.resize(img, (res_w, res_h))
     cv2.imwrite(full_path, img)
 
-for file_ in {}:#img_list:
-    full_name = folder_name + file_ 
-    img = cv2.imread(folder_name + file_)
-    cv2.imshow("img", img)
-    key = cv2.waitKey()
-    if key == 27:
-        break
-
-arg_key = 1
+arg_key = 1 # for cv2.waitKey(arg_key)
 cap = cv2.VideoCapture(video_src)
-frm_num = 0
+frm_num = start_frm_num
 
 while True:
     _, img = cap.read()
@@ -36,7 +28,7 @@ while True:
     # с - continue video
     elif key == ord("c"):
         arg_key = 1
-    elif key == ord("с"): # ruussian "с" doesn't work
+    elif key == ord("с"): # ruussian "с" doesn't work dont know why
         arg_key = 1
     # SPACE - stop /next frame
     elif key == 32:

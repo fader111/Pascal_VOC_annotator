@@ -9,8 +9,8 @@ from xml_creator import create_xml
 from pprint import pprint
 
 regions = ['ru']  # Ruissa vperde!
-img_folder = "saved_cars"
-xml_folder = "saved_xml"
+img_folder = "saved_cars2"
+xml_folder = "saved_xml2"
 directory = os.path.abspath(os.curdir) + '/'
 
 if __name__ == "__main__":
