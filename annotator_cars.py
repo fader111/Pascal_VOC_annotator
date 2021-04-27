@@ -1,5 +1,5 @@
 ''' takes cars pictures from the folder, put them to the alpr site, parses response, 
-    makes the xml files. (tf.record??)
+    makes the xml files. For Cars, Buses, Trucks
 '''
 from common import *
 import os

@@ -30,7 +30,7 @@ xml_tmpl = '''
 '''
 
 def create_xml(xml_full_path, jpg_full_path, width, height, pt1, pt2):
-	''' put given vallues in template and saves xml file'''
+	''' put given values in template and saves xml file'''
 	file_content = '' 
 	# open template .xml file and read fiilup file content
 	with open('template.xml', "r") as f:
