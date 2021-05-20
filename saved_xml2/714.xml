@@ -1,0 +1,39 @@
+
+<annotation>
+	<folder></folder>
+	<filename>715.jpg</filename>
+	<path>C:\Users\Anton\Projects\alpr_site_plates_segmentation/saved_cars2/715.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>1080</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>388</xmin>
+			<ymin>128</ymin>
+			<xmax>585</xmax>
+			<ymax>310</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>366</xmin>
+			<ymin>0</ymin>
+			<xmax>468</xmax>
+			<ymax>71</ymax>
+		</bndbox>
+	</object>
+</annotation>

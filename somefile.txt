@@ -1,0 +1,25 @@
+Hello
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin></xmin>
+			<ymin></ymin>
+			<xmax></xmax>
+			<ymax></ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin></xmin>
+			<ymin></ymin>
+			<xmax></xmax>
+			<ymax></ymax>
+		</bndbox>
+	</object>

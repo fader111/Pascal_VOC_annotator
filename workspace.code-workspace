@@ -1,12 +1,7 @@
 {
 	"folders": [
 		{
-			"name": "alpr_site_plates_segmentation",
 			"path": "."
-		},
-		{
-			"name": "alpr_site",
-			"path": "..\\alpr_site"
 		}
 	],
 	"settings": {}

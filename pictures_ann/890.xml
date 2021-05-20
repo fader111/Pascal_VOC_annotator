@@ -1,0 +1,26 @@
+<annotation>
+	<folder>pictures</folder>
+	<filename>890.jpg</filename>
+	<path>C:\Users\Anton\Projects\alpr_site_plates_segmentation\pictures\890.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>435</xmin>
+			<ymin>187</ymin>
+			<xmax>541</xmax>
+			<ymax>286</ymax>
+		</bndbox>
+	</object>
+</annotation>
