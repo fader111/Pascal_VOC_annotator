@@ -1,27 +1,14 @@
-
 <annotation>
-	<folder></folder>
-	<filename>184.jpg</filename>
-	<path>C:\Users\Anton\Projects\alpr_site_plates_segmentation/saved_cars2/184.jpg</path>
+	<folder>saved_cars2</folder>
+	<filename>183.jpg</filename>
+	<path>C:\Users\Anton\Projects\alpr_site_plates_segmentation\saved_cars2\183.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>720</width>
-		<height>1080</height>
-		<depth>1</depth>
+		<width>1080</width>
+		<height>720</height>
+		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>car</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>514</xmin>
-			<ymin>630</ymin>
-			<xmax>764</xmax>
-			<ymax>720</ymax>
-		</bndbox>
-	</object>
 </annotation>

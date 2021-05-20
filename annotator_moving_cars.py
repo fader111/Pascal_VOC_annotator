@@ -9,6 +9,8 @@ from motion_detect_probe import *
 from xml_creator import create_xml
 from pprint import pprint
 
+src_video ="C:/Users/Anton/Videos/snowy5.ts"
+
 regions = ['ru']  # Ruissa vperde!
 img_folder = "saved_cars2"
 xml_folder = "saved_xml2"
@@ -18,7 +20,7 @@ short_file_name_no_ext = 0
 saved_jpg_width, saved_jpg_height = 1024, 768
 
 if __name__ == "__main__":
-    _gen = bboxes_from_frame()
+    _gen = bboxes_from_video(src_video)
     while 1:
         # get pictures and annotator
         pic, bboxes = next(_gen)        

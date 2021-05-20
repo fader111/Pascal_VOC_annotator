@@ -2,11 +2,11 @@ import cv2
 import numpy as np
 import time
 
-src ="C:/Users/Anton/Videos/snowy5.ts"
+# src ="C:/Users/Anton/Videos/snowy5.ts"
 # src = "C:/Users/Anton/Videos/U524802_1_400_0.avi"
 
 
-def bboxes_from_frame():
+def bboxes_from_video(src):
     ''' define moving objects and return bboxes of them 
         bbox format = [x, y, w, h]
     '''
