@@ -1,1 +1,0 @@
-C:\Users\Anton\Projects\Tensorflow\ws\training_demo\images\from_ssd\000000.jpg
